@@ -15,7 +15,7 @@ import java.util.List;
  *
  * @author Jony Fernando Schulz < Tia 31336256 >
  * 
- * Interface.
+ * Interface de busca dos Exemplares.
  * 
  */
 public interface Searchable {

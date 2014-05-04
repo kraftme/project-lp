@@ -16,7 +16,7 @@ package classes;
  */
 public class Livro extends Exemplar {
     
-    /** Variável: Sinopse sintetizando o assunto do livro. */
+    /** Variável: Sinopse do assunto do livro. */
     private String sinopse;
     /** Variável: Autor do livro. */
     private Autor autor;
@@ -49,7 +49,7 @@ public class Livro extends Exemplar {
     /** Constructor: Construtor com todos os atributos inicializados. */
     public Livro(String sinopse, Autor autor) {
         this.sinopse = sinopse;
-        this.Autor = autor;
+        this.autor = autor;
     }
 
 
